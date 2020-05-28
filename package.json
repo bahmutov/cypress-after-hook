@@ -1,7 +1,7 @@
 {
   "name": "cypress-after-hook",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example project running `after` hook once after all specs have finished",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

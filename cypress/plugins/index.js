@@ -13,6 +13,8 @@
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 
+console.log('in the plugins file')
+
 /**
  * @type {Cypress.PluginConfig}
  */
