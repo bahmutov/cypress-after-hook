@@ -21,4 +21,13 @@ console.log('in the plugins file')
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+
+  console.log(config)
+
+  on('task', {
+    specFinished(specName) {
+      console.log('test file %s has finished', specName)
+      return null
+    }
+  })
 }

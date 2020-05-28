@@ -1,8 +1,8 @@
-// enables intelligent code completion for Cypress commands
-// https://on.cypress.io/intelligent-code-completion
-/// <reference types="cypress" />
-
 context('spec b', () => {
+  beforeEach(() => {
+    console.log('spec-b file: beforeEach hook')
+  })
+
   it('works', function () {
     expect(1).to.equal(1)
   })
